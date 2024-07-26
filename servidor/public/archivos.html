@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Files</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Upload Files</h1>
+    <form id="uploadForm">
+        <div>
+            <label for="imagen">Select an image:</label>
+            <input type="file" id="imagen" name="imagen" accept="image/*">
+        </div>
+        <div>
+            <label for="documento">Select a document:</label>
+            <input type="file" id="documento" name="documento" accept=".pdf,.doc,.docx">
+        </div>
+        <button type="submit">Upload</button>
+    </form>
+
+    <div id="response"></div>
+
+    <script src="programa2.js">
+       
+    </script>
+</body>
+</html>
