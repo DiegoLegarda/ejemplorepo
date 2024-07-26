@@ -28,7 +28,7 @@ async function uploadFile(formData, url) {
             }
         });
         const result = response.data;
-        document.getElementById('response').innerHTML += `<p>File uploaded to: <a href="${result.filePath}" target="_blank">${result.filePath}</a></p>`;
+        document.getElementById('response').innerHTML += `<p>Archivo subido a: <a href="${result.filePath}" target="_blank">${result.filePath}</a></p>`;
     } catch (error) {
         console.error('Error uploading file:', error);
     }
