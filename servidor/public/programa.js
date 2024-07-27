@@ -265,3 +265,14 @@ function validarPassword() {
 }
 document.getElementById('password').addEventListener('keyup', validarPassword);
 
+document.addEventListener('DOMContentLoaded',
+    function(){
+        document.querySelectorAll('.nav-link');
+        const actual=location.href;
+        navLinks.forEach(link=>{
+            if(link.href===actual){
+                link.classList.add('active');
+                }
+        })
+    }
+)
