@@ -2,10 +2,10 @@
   "name": "servidor",
   "version": "1.0.0",
   "description": "Este es un ejemplo de servidor",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon app/app.js"
   },
   "author": "Diego Legarda",
   "license": "ISC",
