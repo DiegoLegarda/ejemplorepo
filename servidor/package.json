@@ -2,10 +2,10 @@
   "name": "servidor",
   "version": "1.0.0",
   "description": "Este es un ejemplo de servidor",
-  "main": "index.js",
+  "main": "nodemon app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon app/app.js"
   },
   "author": "Diego Legarda",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "axios": "^1.7.2",
     "express": "^4.19.2",
     "mongoose": "^8.4.4",
+    "multer": "^1.4.5-lts.1",
     "nodemon": "^3.1.4"
   }
 }
