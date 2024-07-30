@@ -264,3 +264,4 @@ function validarPassword() {
     }
 }
 document.getElementById('password').addEventListener('keyup', validarPassword);
+
