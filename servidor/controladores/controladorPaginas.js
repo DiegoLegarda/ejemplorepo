@@ -27,7 +27,7 @@ const pagError= (req, res) => {
 
 //servir pagina usuario creado
 const pagUsuarioCreado= (req, res) => {
-  res.sendFile(__dirname + '/public/usuarioCreado.html')
+  res.sendFile(path.resolve(__dirname + '../public/usuarioCreado.html'))
 };
 
 module.exports={
