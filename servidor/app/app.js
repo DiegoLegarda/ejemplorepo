@@ -2,11 +2,11 @@ const express = require('express')
 const mongoose = require('mongoose')
 const path = require('path');
 const app = express()
-const port = 3000
-const rutasPaginas = require('./rutas/rutasPaginas');
-const connectDB = require('./conexiones/conexionBDonline');
-const BaseDatos = require('./rutas/rutasBD');
-const rutasArchivos=require('./rutas/rutasArchivos');
+const port = process.env.PORT ||3000
+const rutasPaginas = require('../rutas/rutasPaginas');
+const connectDB = require('../conexiones/conexionBDonline');
+const BaseDatos = require('../rutas/rutasBD');
+const rutasArchivos=require('../rutas/rutasArchivos');
 
 
 //************************************************************ */
